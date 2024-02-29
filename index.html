@@ -26,9 +26,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Ovk Consulting</title>
+    <meta property="og:url" content="https://icehub82.github.io" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Örvar Karlsson | GitHub Page" />
+    <meta property="og:description" content="Welcome to my personal GitHub page." />
+    <meta property="og:image" content="https://icehub82.github.io/assets/profile.jpg" />
+    <title>Örvar Karlsson | GitHub Page</title>
     <base href="/" />
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="assets/github-icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
@@ -36,6 +41,13 @@
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/custom.css" rel="stylesheet" />
     <link href="css/app.css" rel="stylesheet" />
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = 'css/darkmode.css';
+        link.disabled = localStorage.getItem('darkmode') === null ? true : false;
+        document.head.appendChild(link);
+    </script>
 </head>
 
 <body class="d-flex flex-column h-100">
