@@ -33,7 +33,7 @@
             link.rel = 'stylesheet';
             const cssFile = window.location.hostname === 'icehub82.github.io' ? `${sheet}.min.css` : `${sheet}.css`;
             link.href = `css/${cssFile}`;
-            if (sheet === 'darkmode') {
+            if (sheet === 'darkmodeClean') {
                 link.disabled = localStorage.getItem('darkmode') === null;
             }
             document.head.appendChild(link);
