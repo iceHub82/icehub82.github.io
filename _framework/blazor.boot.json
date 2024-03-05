@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "GitHubWasmPage",
   "resources": {
-    "hash": "sha256-0Goy+eEmdzvKdx+d5KSWFjfV1wA2b+Fsf5eqRsn4sg4=",
+    "hash": "sha256-oezlsnLvBwYM8qx6HW1XWm9H48iC6y8tfYl6sKyUA68=",
     "jsModuleNative": {
       "dotnet.native.8.0.2.zh6j4auibk.js": "sha256-YKD3m890KYkjEdR5X9UZDkG4n+kUOjUTIy8VVerGD9M="
     },
@@ -18,7 +18,7 @@
     },
     "assembly": {
       "Blazored.LocalStorage.wasm": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU=",
-      "GitHubWasmPage.wasm": "sha256-L94jGRlN3tlwEn9PxnwZppLIinKzizuPC2RRcPytuaQ=",
+      "GitHubWasmPage.wasm": "sha256-t2tFvr2JR5HQAk7IxhCw4+hj1KtqwZyKFGJAI4ajHJI=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-TKRG3o8XMbyqvGErE3CILnOB7+oOENgjuqp3hqSCgg8=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-r3MLmSTjK304Eb3aalJbJUJGeIkqABq50cBZoro0bys=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-Kx4sNTL7kmcDJNzCp8BSed71e4dOjS0KAmxYmNNv9B4=",
