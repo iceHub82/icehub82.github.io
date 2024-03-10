@@ -1791,11 +1791,11 @@ body, html {
     background-color: #131e9b;
 }
 
-.navbar-toggler:focus {
-    outline: none !important;
-    border: 2px solid purple;
-    box-shadow: 0 0 10px #719ECE;
-}
+    .navbar-toggler:focus {
+        outline: none !important;
+        border: 2px solid purple;
+        box-shadow: 0 0 10px #719ECE;
+    }
 
 .navbar-toggler-icon {
     display: inline-block;
