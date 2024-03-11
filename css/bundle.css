@@ -98,13 +98,19 @@
     margin: 20vh auto 1rem auto
 }
 
-    .loading-progress circle {
-        fill: none;
-        stroke: #e0e0e0;
-        stroke-width: .6rem;
-        transform-origin: 50% 50%;
-        transform: rotate(-90deg)
-    }
+.loading-progress circle {
+    fill: none;
+    stroke: #9b4dca;
+    stroke-width: .6rem;
+    transform-origin: 50% 50%;
+    transform: rotate(-90deg)
+}
+
+.loading-progress circle:last-child {
+    stroke: #9b4dca;
+    stroke-dasharray: calc(3.141 * var(--blazor-load-percentage, 0%) * 0.8), 500%;
+    transition: stroke-dasharray 0.05s ease-in-out;
+}
 
 .loading-progress-text {
     position: absolute;
@@ -113,24 +119,15 @@
     inset: calc(20vh + 3.25rem) 0 auto 0.2rem
 }
 
-    .loading-progress-text:after {
-        content: var(--blazor-load-percentage-text, "Loading")
-    }
+.loading-progress-text:after {
+    content: var(--blazor-load-percentage-text, "Loading")
+}
 
 code {
     color: #c02d76
 }
 
-@charset "UTF-8"; /*!
-* Start Bootstrap - Personal v1.0.1 (https://startbootstrap.com/template-overviews/personal)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-personal/blob/master/LICENSE)
-*/ /*!
- * Bootstrap  v5.2.3 (https://getbootstrap.com/)
- * Copyright 2011-2022 The Bootstrap Authors
- * Copyright 2011-2022 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+@charset "UTF-8";
 
 :root {
     --bs-blue: #1e30f3;
@@ -1785,7 +1782,6 @@ body, html {
         transform: rotate(10deg)
     }
 }
-
 
 .navbar-toggler {
     background-color: #131e9b;
