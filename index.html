@@ -2,6 +2,23 @@
 <html lang="en">
 
 <head>
+    <script>
+        if (window.location.hostname === 'icehub82.github.io') {
+            console.log('inside the host');
+            const ga = document.createElement('script');
+            ga.src = 'https://www.googletagmanager.com/gtag/js?id=G-9JLVEDD18Z';
+            ga.async = true;
+            document.head.appendChild(ga);
+            var head = document.getElementsByTagName("head")[0]
+            head.insertBefore(ga, head.firstChild);
+
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'G-9JLVEDD18Z');
+        }
+    </script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>Örvar Karlsson | GitHub Page</title>
